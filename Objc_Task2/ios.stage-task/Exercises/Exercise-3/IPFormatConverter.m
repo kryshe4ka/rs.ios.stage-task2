@@ -28,3 +28,14 @@
 }
 
 @end
+
+
+// Еще один вариант как склеивать строки
+//[ipAddress appendString:fullNumbersArray[i].stringValue];
+//         if (i != 3) {
+//             [ipAddress appendString:@"."];
+//         }
+// вариант как добавить нули
+//while (fullNumbersArray.count < 4) {
+//         [fullNumbersArray addObject: [NSNumber numberWithInt:0]];
+//     }

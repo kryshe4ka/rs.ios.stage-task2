@@ -44,4 +44,10 @@
 
 @end
 
+// вариант как возвращать отсортированный по убыванию массив строк
 
+//NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"self" ascending:NO selector:@selector(caseInsensitiveCompare:)];
+//             [resultedArray addObject:[arrayOfStrings sortedArrayUsingDescriptors:@[sort]]];
+
+// еще вариант как создать двумерный массив
+// return [[NSArray alloc] initWithObjects:numbersBuffer, stringBuffer, nil];
